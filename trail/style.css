@@ -1,0 +1,136 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Skyscraper_by_Klyukin.woff);
+  }
+
+*{
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-transform: capitalize;
+
+}
+
+.contrainer{
+ position: relative;
+ min-height: 100vh;
+ background-image: radial-gradient(#f0493ac7, #f3e0114e);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 30px 100px;
+}
+
+header{
+
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 0px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
+
+}
+  /* .img{
+
+    max-width: 90px;
+  } */
+  .img img{
+
+    max-width: 90px;
+  }
+
+  ul{
+
+    display: flex;
+    
+  }
+  li{
+
+    list-style: none;
+    position: relative;
+
+    margin-left: 80px;
+    font-size: larger;
+    
+  }
+
+  
+li{
+
+    color: #ffffff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #f7e2e2,
+      0 0 42px rgb(32, 235, 168),
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+     -webkit-text-stroke: 1px rgb(254, 131, 131);
+}
+
+  main{
+
+position: relative;
+justify-content: center;
+align-items: center;
+display:flex;
+width: 100%;
+padding: 20px;
+
+  }
+
+  .text{
+
+
+  }
+
+  .text h1{
+
+  }
+
+  .text p{
+
+
+  }
+
+  .text button{
+
+
+  }
+
+.silder{
+
+
+}
+.slides{
+
+    
+}
+
+.slides img{
+
+    max-width: 500px;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slides {
+    flex: 0 0 100%;
+    display: none;
+  }
+  
+  
+  
